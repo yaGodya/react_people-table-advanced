@@ -1,8 +1,8 @@
 import { Link, useLocation } from 'react-router-dom';
 
-import CenturyFilter from './FilterBy/FilterByCountry'
-import NameFilter from './FilterBy/FilterByName'
-import SexFilter from './FilterBy/FilterBySex';
+import CenturyFilter from './FilterByCountry';
+import NameFilter from './FilterByName';
+import SexFilter from './FilterBySex';
 
 const PeopleFilters = () => {
   const location = useLocation();

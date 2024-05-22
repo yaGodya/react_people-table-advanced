@@ -1,12 +1,12 @@
 import { useEffect, useState } from 'react';
 
-import PeopleFilters from '../components/PeopleFilters';
-import PeopleTable from '../components/PeopleTable';
-import { Loader } from '../components/Loader';
+import PeopleFilters from '../PeopleFilters';
+import PeopleTable from '../PeopleTable';
+import { Loader } from '../../components/Loader';
 
-import { getPreparedPeople } from '../utils/getPreparedPeople';
-import { getPeople } from '../api';
-import { Person } from '../types';
+import { getPreparedPeople } from '../../utils/getPreparedPeople';
+import { getPeople } from '../../api';
+import { Person } from '../../types';
 
 const PeoplePage = () => {
   const [people, setPeople] = useState<Person[]>([]);
